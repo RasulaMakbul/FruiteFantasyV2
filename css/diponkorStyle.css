@@ -155,3 +155,10 @@ body {
 }
 
 /* nav bar style ends */
+
+.mainBody {
+    position: absolute;
+    left: 330px;
+    top: 100px;
+
+}

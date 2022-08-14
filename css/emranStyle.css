@@ -292,6 +292,13 @@ tbody tr td {
     font-weight: 600;
 }
 
+.mainBody {
+    position: absolute;
+    left: 330px;
+    top: 100px;
+
+}
+
 @media (max-width: 768px) {
     #menu {
         width: 270px;
