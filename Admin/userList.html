@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users</title>
+
+    <link rel="stylesheet" href="../css/emranStyle.css">
+
+    <script src="https://kit.fontawesome.com/f3000c9832.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- Side bar -->
+    <section id="menu">
+        <div class="logo">
+            <a href="../index.html">
+                <h5>Fruit Fantasy</h5>
+            </a>
+        </div>
+        <div class="items">
+            <li><i class="fa-solid fa-chart-pie"></i><a href="./dashboard.html">Dashboard</a></li>
+            <li><i class="fa-solid fa-border-all"></i><a href="./categories.html">Categories</a></li>
+            <li><i class="fa-solid fa-apple-whole"></i><a href="./productList.html">Products</a></li>
+            <li><i class="fa-solid fa-users"></i><a href="./userList.html">Users</a></li>
+            <li><i class="fa-solid fa-cart-arrow-down"></i><a href="./orderList.html">Order List</a></li>
+            <li><i class="fa-solid fa-file-invoice-dollar"></i><a href="./invoiceList.html">Invoice</a></li>
+            <li><i class="fa-solid fa-star-half-stroke"></i><a href="./reviews.html">Reviews</a></li>
+
+        </div>
+    </section>
+    <!-- nav bar -->
+    <section id="interface">
+        <div class="nav">
+            <div class="n1">
+                <div>
+                    <i id="menu-btn" class="fa-solid fa-bars"></i>
+                </div>
+                <div class="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Search">
+                </div>
+            </div>
+            <div class="profile">
+                <a href="#"><i class="fa-solid fa-circle-user"></i></a>
+                <a href=""><img src="../img/admin.png" alt=""></a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- your code here -->
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        $('#menu-btn').click(function () {
+            $('#menu').toggleClass("active");
+        })
+    </script>
+
+
+</body>
+
+</html>
