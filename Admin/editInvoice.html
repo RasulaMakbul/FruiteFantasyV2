@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edit Invoice</title>
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/emranStyle.css">
 
     <script src="https://kit.fontawesome.com/f3000c9832.js" crossorigin="anonymous"></script>
@@ -57,7 +58,49 @@
     <!-- your code here -->
     <section>
         <div class="mainBody">
-            Your Code
+            <form class="row g-3">
+                <div class="col-md-4">
+                    <label for="inputEmail4" class="form-label">Product </label>
+                    <input type="text" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-3">
+                    <label for="inputAddress" class="form-label">Amount</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+                <div class="col-md-3">
+                    <label for="inputEmail4" class="form-label">Price </label>
+                    <input type="text" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-4">
+                    <label for="inputEmail4" class="form-label">Product </label>
+                    <input type="text" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-3">
+                    <label for="inputAddress" class="form-label">Amount</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+                <div class="col-md-3">
+                    <label for="inputEmail4" class="form-label">Price </label>
+                    <input type="text" class="form-control" id="inputEmail4">
+                </div>
+
+                <div class="col-10">
+                    <label for="inputAddress2" class="form-label">Total Price</label>
+                    <input type="text" class="form-control" id="inputAddress2"
+                        placeholder="Apartment, studio, or floor">
+                </div>
+                <div class="col-md-10">
+                    <label for="inputCity" class="form-label">Address</label>
+                    <input type="text" class="form-control" id="inputCity">
+                </div>
+
+                <div class="col-3">
+                    <a class="btn btn-secondary" href="./invoiceList.html">Save</a>
+                </div>
+                <div class="col-3">
+                    <a class="btn btn-danger" href="./invoiceList.html">Discard</a>
+                </div>
+            </form>
         </div>
     </section>
 
@@ -71,7 +114,9 @@
 
 
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
     <script>
         $('#menu-btn').click(function () {
             $('#menu').toggleClass("active");

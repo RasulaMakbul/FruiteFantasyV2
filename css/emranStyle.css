@@ -296,8 +296,15 @@ tbody tr td {
     position: absolute;
     left: 330px;
     top: 100px;
+    width: calc(100% - 300px);
+    margin-right: 5px;
 
 }
+
+.mainBody table {
+    width: 100%;
+}
+
 
 @media (max-width: 768px) {
     #menu {
