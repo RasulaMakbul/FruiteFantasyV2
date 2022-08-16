@@ -10,6 +10,14 @@ body {
     display: flex;
 }
 
+form i{
+    padding-right: 20px;
+    color: aliceblue;
+}
+nav2{
+    padding: 5px;
+}
+
 .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
@@ -21,7 +29,14 @@ body {
   @media (min-width: 768px) {
     .bd-placeholder-img-lg {
       font-size: 3.5rem;
+      
     }
+  }
+
+
+  .nav2{
+    margin-top: 50px;
+    background-color: rgb(223, 220, 215);
   }
 
   main > .container {
@@ -32,6 +47,39 @@ body {
     height: 400px;
     width: 50%;
   }
+
+  .container .row .col-3{
+    border: 1px solid rgb(151, 147, 147);
+  }
+
+  .container .row .col-3 li{
+    list-style: none;
+    border-bottom: 1px solid rgb(151, 147, 147);
+    padding: 10px 40px 10px 0;
+    margin: 10px 40px 10px 0;
+  }
+
+  .container .row .col-3 li a{
+    text-decoration: none;
+  }
+
+  .container .card img{
+    height: 250px;
+    width: 250px;
+    border-radius: 30%;
+  }
+
+  .testomonial .carousel-inner{
+    margin: 50px auto;
+    width: 500px;
+  }
+
+  .testomonial .carousel-inner img{
+    height: 100px;
+    width: 100px;
+  }
+
+
 
   .footer container {
     position: relative;
@@ -48,4 +96,13 @@ body {
     height: auto;
     margin-left: auto;
     margin-right: auto;
+}
+
+.footerItems .footerLinks{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.footerItems .footerLinks a{
+    padding-bottom: 10px;
 }
