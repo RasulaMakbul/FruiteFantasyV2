@@ -79,6 +79,15 @@ nav2{
     width: 100px;
   }
 
+  .col-11{
+    margin: 20px auto;
+  }
+
+   .col-11 .card img {
+      height: 250px;
+      width: 250px;
+      border-radius: 30%;
+  }
 
 
   .footer container {
