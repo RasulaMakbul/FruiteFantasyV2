@@ -387,3 +387,15 @@ tbody tr td {
         margin: 30px 15px 30px 15px;
     }
 }
+
+
+
+/* Userfrontend design */
+
+.header {
+    position: sticky;
+    width: 100%;
+    flex-direction: column;
+    left: 0;
+    right: 0;
+}

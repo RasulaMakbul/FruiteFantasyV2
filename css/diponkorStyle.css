@@ -13,6 +13,7 @@ body {
 /* sidebar style start */
 
 #menu {
+    position: relative;
     background-color: aliceblue;
     width: 300px;
     height: 100%;
@@ -83,13 +84,15 @@ body {
 
 
 #interface {
+    position: relative;
     width: calc(100% - 300px);
     margin-left: 300px;
-    position: relative;
+    z-index: 2;
 
 }
 
 #interface .nav {
+    position: relative;
     background-color: aliceblue;
     display: flex;
     align-items: center;
@@ -157,8 +160,25 @@ body {
 /* nav bar style ends */
 
 .mainBody {
-    position: absolute;
-    left: 330px;
+    position: relative;
     top: 100px;
-
+    width: 100%;
+    
+    
+    
 }
+
+/* .items .card{
+    content: "";
+    clear: both;
+    display: table;
+} */
+
+.editCategory{
+    margin: 10px;
+    margin-top: 100px;
+    padding: 0px 100px;
+}
+
+
+

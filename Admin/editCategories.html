@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edit Category</title>
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/CategoryEdit.css">
     <link rel="stylesheet" href="../css/diponkorStyle.css">
 
     <script src="https://kit.fontawesome.com/f3000c9832.js" crossorigin="anonymous"></script>
@@ -51,23 +52,49 @@
             </div>
 
         </div>
-
-    </section>
-
-    <!-- your code here -->
-    <section>
-        <div class="mainBody">
-            Your Code
+        <div class="editCategory" >
+            <form>
+                <div class="form-control">
+                    <div class="EditCategory"><h1>Edit Category</h1></div>
+            
+                    <div class="name">
+                      <div class="mb-2">
+                        <label for="name" class="form-label">Old Category Name</label>
+                        <input type="name" class="form-control" id="exampleInputname" aria-describedby="name">
+                        <div id="name" class="form-text"></div>
+                      </div>
+                
+                      <div class="mb-2">
+                        <label for="name" class="form-label">New Category Name</label>
+                        <input type="name" class="form-control" id="exampleInputname" aria-describedby="name">
+                        <div id="name" class="form-text"></div>
+                      </div>
+                
+                      <div class="mb-2">
+                        <label for="exampleFormControlTextarea1" class="form-label">Description</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                
+                      <div class="mb-2">
+                        <label for="formFile" class="form-label">Select Image</label>
+                        <input class="form-control" type="file" id="formFile">
+                      </div>
+                     
+                      <div class="mb-2 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                      </div>
+                      <a href="./categories.html" class="btn btn-secondary">Update</a>
+                      <a href="./categories.html" class="btn btn-danger">Discard</a>
+                    </div>
+                    
+                  </div>
+              </form>
         </div>
+
     </section>
 
-
-
-
-
-
-
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 
 
