@@ -2,64 +2,151 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product | Mango</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product | Apple</title>
 
-    <link rel="stylesheet" href="../css/rahiulStyle.css">
 
-    <script src="https://kit.fontawesome.com/f3000c9832.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="../css/rahiulStyle.css">
+
+  <script src="https://kit.fontawesome.com/f3000c9832.js" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
-    <!-- Side bar -->
-    <section id="menu">
-        <div class="logo">
-            <a href="../index.html">
-                <h5>Fruit Fantasy</h5>
-            </a>
-        </div>
-        <div class="items">
-            <li><i class="fa-solid fa-chart-pie"></i><a href="./dashboard.html">Dashboard</a></li>
-            <li><i class="fa-solid fa-border-all"></i><a href="./categories.html">Categories</a></li>
-            <li><i class="fa-solid fa-apple-whole"></i><a href="./productList.html">Products</a></li>
-            <li><i class="fa-solid fa-users"></i><a href="./userList.html">Users</a></li>
-            <li><i class="fa-solid fa-cart-arrow-down"></i><a href="./orderList.html">Order List</a></li>
-            <li><i class="fa-solid fa-file-invoice-dollar"></i><a href="./invoiceList.html">Invoice</a></li>
-            <li><i class="fa-solid fa-star-half-stroke"></i><a href="./reviews.html">Reviews</a></li>
+  <!-- Side bar -->
+  <section id="menu">
+    <div class="logo">
+      <a href="../index.html">
+        <h5>Fruit Fantasy</h5>
+      </a>
+    </div>
+    <div class="items">
+      <li><i class="fa-solid fa-chart-pie"></i><a href="./dashboard.html">Dashboard</a></li>
+      <li><i class="fa-solid fa-border-all"></i><a href="./categories.html">Categories</a></li>
+      <li><i class="fa-solid fa-apple-whole"></i><a href="./productList.html">Products</a></li>
+      <li><i class="fa-solid fa-users"></i><a href="./userList.html">Users</a></li>
+      <li><i class="fa-solid fa-cart-arrow-down"></i><a href="./orderList.html">Order List</a></li>
+      <li><i class="fa-solid fa-file-invoice-dollar"></i><a href="./invoiceList.html">Invoice</a></li>
+      <li><i class="fa-solid fa-star-half-stroke"></i><a href="./reviews.html">Reviews</a></li>
 
+    </div>
+  </section>
+  <!-- nav bar -->
+  <section id="interface">
+    <div class="nav">
+      <div class="n1">
+        <div>
+          <i id="menu-btn" class="fa-solid fa-bars"></i>
         </div>
-    </section>
-    <!-- nav bar -->
-    <section id="interface">
-        <div class="nav">
-            <div class="n1">
-                <div>
-                    <i id="menu-btn" class="fa-solid fa-bars"></i>
-                </div>
-                <div class="search">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    <input type="text" placeholder="Search">
-                </div>
+        <div class="search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" placeholder="Search">
+        </div>
+      </div>
+      <div class="profile">
+        <a href="#"><i class="fa-solid fa-circle-user"></i></a>
+        <a href=""><img src="../img/admin.png" alt=""></a>
+
+      </div>
+
+    </div>
+    <div class="appleCategory">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="../img/pinkLadyApple.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Pink Lady</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
             </div>
-            <div class="profile">
-                <a href="#"><i class="fa-solid fa-circle-user"></i></a>
-                <a href=""><img src="../img/admin.png" alt=""></a>
-
+          </div>
+          <a href="pinkLadyApple.html" class="btn btn-secondary">View</a>
+          <a href="editProduct.html" class="btn btn-danger">Edit</a>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="../img/bramleyApple.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Bramley</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
             </div>
-
+          </div>
+          <a href="pinkLadyApple.html" class="btn btn-secondary">View</a>
+          <a href="editProduct.html" class="btn btn-danger">Edit</a>
         </div>
-
-    </section>
-
-    <!-- your code here -->
-    <section>
-        <div class="mainBody">
-            Your Code
+        <div class="col">
+          <div class="card">
+            <img src="../img/redDeliciousApple.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Red Delicious</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+            </div>
+          </div>
+          <a href="pinkLadyApple.html" class="btn btn-secondary">View</a>
+          <a href="editProduct.html" class="btn btn-danger">Edit</a>
         </div>
-    </section>
+        <div class="col">
+          <div class="card">
+            <img src="../img/goldenDeliciousApple.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Golden Delicious</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content.</p>
+            </div>
+          </div>
+          <a href="pinkLadyApple.html" class="btn btn-secondary">View</a>
+          <a href="editProduct.html" class="btn btn-danger">Edit</a>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="../img/coxApple.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Cox</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content.</p>
+            </div>
+          </div>
+          <a href="pinkLadyApple.html" class="btn btn-secondary">View</a>
+          <a href="editProduct.html" class="btn btn-danger">Edit</a>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="../img/braeburnApple.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Braeburn</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content.</p>
+            </div>
+          </div>
+          <a href="pinkLadyApple.html" class="btn btn-secondary">View</a>
+          <a href="editProduct.html" class="btn btn-danger">Edit</a>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="../img/royalGalaApple.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Royal Gala</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+                content.</p>
+            </div>
+          </div>
+          <a href="pinkLadyApple.html" class="btn btn-secondary">View</a>
+          <a href="editProduct.html" class="btn btn-danger">Edit</a>
+        </div>
+      </div>
+
+    </div>
+
+    </div>
+  </section>
 
 
 
@@ -72,11 +159,15 @@
 
 
 
-    <script>
-        $('#menu-btn').click(function () {
-            $('#menu').toggleClass("active");
-        })
-    </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <script>
+    $('#menu-btn').click(function () {
+      $('#menu').toggleClass("active");
+    })
+  </script>
 
 
 </body>

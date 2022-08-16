@@ -13,6 +13,7 @@ body {
 /* sidebar style start */
 
 #menu {
+    position: relative;
     background-color: aliceblue;
     width: 300px;
     height: 100%;
@@ -83,13 +84,16 @@ body {
 
 
 #interface {
+    position: relative;
     width: calc(100% - 300px);
     margin-left: 300px;
-    position: relative;
+    z-index: 1;
+    
 
 }
 
 #interface .nav {
+    position: relative;
     background-color: aliceblue;
     display: flex;
     align-items: center;
@@ -98,6 +102,7 @@ body {
     border-bottom: 3px solid rgb(1, 1, 77);
     position: fixed;
     width: calc(100% - 300px);
+    z-index: 1;
 
 }
 
@@ -156,9 +161,51 @@ body {
 
 /* nav bar style ends */
 
-.mainBody {
-    position: absolute;
-    left: 330px;
-    top: 100px;
-
+.appleCategory{
+    margin: 10px;
+    margin-top: 100px;
+    padding: 0px 10px;
+    z-index: 2;
+    
+    
 }
+
+.appleCategory .btn{
+    margin: 10px 0 10px 10px;
+}
+
+.appleCategory img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.container{
+    padding-top: 5px;
+    z-index: 2;
+}
+.container .card{
+    padding: 20px 0px 5px 20px;
+    background-color: #444a53;
+    color: aliceblue;
+}
+
+.container img{
+    height: 250px;
+    width: 250px;
+    border-radius: 30%;
+}
+.container .card .upClass{
+    display: flex;
+    align-items:center;
+    
+}
+
+.container .card .upClass .available{
+    margin-left: 30px;
+}
+
+.container .card i{
+    size: 5px;
+}
+
