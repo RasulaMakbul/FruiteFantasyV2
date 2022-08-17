@@ -10,11 +10,12 @@ body {
     display: flex;
 }
 
-form i{
+form i {
     padding-right: 20px;
     color: aliceblue;
 }
-nav2{
+
+nav2 {
     padding: 5px;
 }
 
@@ -24,94 +25,97 @@ nav2{
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none;
-  }
+}
 
-  @media (min-width: 768px) {
+@media (min-width: 768px) {
     .bd-placeholder-img-lg {
-      font-size: 3.5rem;
-      
+        font-size: 3.5rem;
+
     }
-  }
+}
 
 
-  .nav2{
+.nav2 {
     margin-top: 50px;
     background-color: rgb(223, 220, 215);
-  }
+}
 
-  main > .container {
+main>.container {
     padding: 60px 0px 0px 0px;
-  }
+}
 
-  main .container .carousel img{
+main .container .carousel img {
     height: 400px;
     width: 50%;
-  }
+}
 
-  .container .row .col-3{
+.container .row .col-3 {
     border: 1px solid rgb(151, 147, 147);
-  }
+}
 
-  .container .row .col-3 li{
+.container .row .col-3 li {
     list-style: none;
     border-bottom: 1px solid rgb(151, 147, 147);
     padding: 10px 40px 10px 0;
     margin: 10px 40px 10px 0;
-  }
+}
 
-  .container .row .col-3 li a{
+.container .row .col-3 li a {
     text-decoration: none;
-  }
+}
 
-  .container .card img{
+.container .card img {
     height: 250px;
     width: 250px;
     border-radius: 30%;
-  }
+}
 
-  .testomonial .carousel-inner{
+.testomonial .carousel-inner {
     margin: 50px auto;
     width: 500px;
-  }
+}
 
-  .testomonial .carousel-inner img{
+.testomonial .carousel-inner img {
     height: 100px;
     width: 100px;
-  }
+}
 
-  .col-11{
+.col-11 {
     margin: 20px auto;
-  }
+}
 
-   .col-11 .card img {
-      height: 250px;
-      width: 250px;
-      border-radius: 30%;
-  }
-  .cart-table {
+.col-11 .card img {
+    height: 250px;
+    width: 250px;
+    border-radius: 30%;
+}
+
+.cart-table {
     align-items: center;
-  }
+}
 
-  .cart-table img{
+.cart-table img {
     height: 50px;
     width: 50px;
     border-radius: 30%;
-  }
-  .mainBody .card img{
+}
+
+.mainBody .card img {
     height: 250px;
     width: 250px;
-  }
+}
 
-  main .container .row .col-12{
+main .container .row .col-12 {
     margin-top: 30px;
-  }
-  .cart-table td{
+}
+
+.cart-table td {
     text-align: center;
-  }
-  
+}
 
 
-  .footer container {
+
+.footer container {
     position: relative;
     left: 0;
     bottom: 0;
@@ -128,20 +132,21 @@ nav2{
     margin-right: auto;
 }
 
-.footerItems .footerLinks{
+.footerItems .footerLinks {
     display: flex;
     flex-direction: column;
     margin-top: 30px;
 }
-.footerItems .footerLinks a{
+
+.footerItems .footerLinks a {
     padding-bottom: 10px;
 }
 
 
-main #aboutUsP{
+main #aboutUsP {
     text-align: justify;
-        -moz-text-align-last: justify;
-        text-align-last:auto;
+    -moz-text-align-last: justify;
+    text-align-last: auto;
 }
 
 .map-container {
@@ -352,12 +357,4 @@ main #aboutUsP{
     font-weight: 700;
     line-height: 60px;
     padding: 0;
-}
-
-
-.karl-checkout-btn:hover,
-.karl-checkout-btn:focus {
-    background-color: #3a3a3a;
-    color: #fff;
-    font-weight: 700;
 }
